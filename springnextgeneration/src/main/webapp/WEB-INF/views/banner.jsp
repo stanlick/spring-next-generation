@@ -19,7 +19,7 @@
 
 		<ul id="nav" class="main">
 			<li><a href="/">Home</a></li>
-			<li><a href="http://www.amazon.com/Spring-Next-Generation-Thinking-Objects/dp/1494334542">Purchase</a></li>
+			<li><a href="https://github.com/stanlick/spring-next-generation">Source</a></li>
 			<li><a href="/contact">Contact</a></li>
 		</ul>
 

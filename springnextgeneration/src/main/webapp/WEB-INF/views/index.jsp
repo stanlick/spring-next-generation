@@ -8,8 +8,7 @@
 			<div class="grid-6 grid intro">
 				<h2>Spring Next Generation</h2>
 				<p>
-					A version current book <i>series</i> where you get to choose the
-					pieces you need.
+					The current book <i>series</i> where you choose the bite sized learning you need.
 				</p>
 
 			</div>
@@ -47,8 +46,8 @@
 			<div class="grid-4 grid">
 				<h4>Core Container</h4>
 				<p>
-					This book gets at the very heart of Spring. It explains how an application works with Spring. <i>Core Container</i> is
-					a must read if you think Spring is a magic box.  Spring is what you would have written if you had the time and money!<br />
+					This book gets at the very heart of Spring. It explains how an application works using Spring. <i>Core Container</i> is
+					a must read if you think Spring is a magic box.  All the current techniques are explored.<br />
 
 				</p>
 			</div>
@@ -56,9 +55,8 @@
 			<div class="grid-4 grid">
 				<h4>AOP</h4>
 				<p>
-					This book reveals the Spring "special sauce." AOP is how Spring
-					handles your cross-cutting concerns. <i>AOP</i> is must read if you
-					are still doing things repeatedly by hand<br />
+					Are you still coding the same old things over and over by hand?
+					<i>AOP</i> will show you how to turn these tedious cross-cutting chores over to Spring.  I call it the Spring "special sauce."<br />
 
 				</p>
 			</div>
