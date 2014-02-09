@@ -1,6 +1,6 @@
 <jsp:include page="head.jsp" />
 <body>
-	<jsp:include page="banner.jsp" />
+	<jsp:include page="banner.jsp" />  
 	<!--========================================================================== Intro and FlexSlider =====================================================================================-->
 
 	<div class="wrapper">
@@ -14,8 +14,8 @@
 			</div>
 			<!--end of slogan div-->
 
-			<div align="right">
-				<img alt="Spring People" src="resources/img/spring_people.jpg">
+			<div align="center" >
+				<img alt="Spring People" src="resources/img/spring_people.png" >
 			</div>
 			<!--end of div grid-10-->
 		</div>
