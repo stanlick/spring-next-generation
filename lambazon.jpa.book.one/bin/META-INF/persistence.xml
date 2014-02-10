@@ -8,7 +8,7 @@
 		<class>com.lambazon.domain.Name</class>
 		<properties>
 			
-      <property name="javax.persistence.jdbc.url" value="jdbc:derby:C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDerbyDB"/>
       <property name="javax.persistence.jdbc.user" value="guest"/>
       <property name="javax.persistence.jdbc.password" value="password"/>
       <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>			
