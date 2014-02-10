@@ -3,9 +3,17 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-		<import resource="domain.xml" />
-		<import resource="data.xml" />
-		<import resource="controller.xml" />
-		<import resource="service.xml" />
-		<import resource="repository.xml" />
+	
+	<context:property-placeholder location="classpath:config.properties"/>
+	
+	<bean class="com.lambazon.factory.LambazonObjectFactory">
+		<property name="version" value="${version}" />
+	</bean>
+
+
+	<import resource="domain.xml" />
+	<import resource="data.xml" />
+	<import resource="controller.xml" />
+	<import resource="service.xml" />
+	<import resource="repository.xml" />
 </beans>

@@ -12,7 +12,7 @@ import com.lambazon.domain.dsl.Weekend;
 import com.lambazon.service.Service;
 
 
-@Named@Weekend
+@Named @Weekend
 public class CustomerService implements Service<Customer> {
 
 	@Inject
