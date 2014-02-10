@@ -1,4 +1,4 @@
-Sun Feb 09 18:08:59 CST 2014 Thread[main,5,main] Cleanup action starting
+Sun Feb 09 18:15:03 CST 2014 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -194,7 +194,7 @@ java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//Ne
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:08:59 CST 2014 Thread[main,5,main] Cleanup action starting
+Sun Feb 09 18:15:03 CST 2014 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -388,7 +388,7 @@ java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//Ne
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:08:59 CST 2014 Thread[main,5,main] Cleanup action starting
+Sun Feb 09 18:15:03 CST 2014 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -584,7 +584,7 @@ java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//Ne
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:08:59 CST 2014 Thread[main,5,main] Cleanup action starting
+Sun Feb 09 18:15:03 CST 2014 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -778,7 +778,7 @@ java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//Ne
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:08:59 CST 2014 Thread[main,5,main] Cleanup action starting
+Sun Feb 09 18:15:03 CST 2014 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -974,7 +974,7 @@ java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//Ne
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:08:59 CST 2014 Thread[main,5,main] Cleanup action starting
+Sun Feb 09 18:15:03 CST 2014 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//NewSpringCourse//createSpace//workspace//lambazon//MyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1168,8 +1168,8 @@ java.sql.SQLException: Database 'C://Users//stanlick//Dropbox//aaa_in_flight//Ne
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:09:00 CST 2014 Thread[main,5,main] Cleanup action starting
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Sun Feb 09 18:15:04 CST 2014 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1190,11 +1190,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1236,12 +1236,12 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 66 more
 ============= begin nested exception, level (1) ===========
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
@@ -1264,11 +1264,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1312,8 +1312,8 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:09:00 CST 2014 Thread[main,5,main] Cleanup action starting
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Sun Feb 09 18:15:04 CST 2014 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1334,11 +1334,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.combined.configuration.ConnectionPool.getConnection(ConnectionPool.java:18)
 	at com.lambazon.combined.configuration.AllThreeConfigTypes.batchRepository(AllThreeConfigTypes.java:29)
-	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$17a38dd4.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$17a38dd4$$FastClassByCGLIB$$3cce7722.invoke(<generated>)
+	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$73a965bf.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$73a965bf$$FastClassByCGLIB$$d8cf8b25.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$17a38dd4.batchRepository(<generated>)
+	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$73a965bf.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1380,12 +1380,12 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 66 more
 ============= begin nested exception, level (1) ===========
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
@@ -1408,11 +1408,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.combined.configuration.ConnectionPool.getConnection(ConnectionPool.java:18)
 	at com.lambazon.combined.configuration.AllThreeConfigTypes.batchRepository(AllThreeConfigTypes.java:29)
-	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$17a38dd4.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$17a38dd4$$FastClassByCGLIB$$3cce7722.invoke(<generated>)
+	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$73a965bf.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$73a965bf$$FastClassByCGLIB$$d8cf8b25.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$17a38dd4.batchRepository(<generated>)
+	at com.lambazon.combined.configuration.AllThreeConfigTypes$$EnhancerByCGLIB$$73a965bf.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1456,8 +1456,8 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:09:01 CST 2014 Thread[main,5,main] Cleanup action starting
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Sun Feb 09 18:15:05 CST 2014 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1478,11 +1478,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1524,12 +1524,12 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 66 more
 ============= begin nested exception, level (1) ===========
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
@@ -1552,11 +1552,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1600,8 +1600,8 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:09:01 CST 2014 Thread[main,5,main] Cleanup action starting
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Sun Feb 09 18:15:05 CST 2014 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1622,11 +1622,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1668,12 +1668,12 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 66 more
 ============= begin nested exception, level (1) ===========
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
@@ -1696,11 +1696,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1744,8 +1744,8 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:09:01 CST 2014 Thread[main,5,main] Cleanup action starting
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Sun Feb 09 18:15:05 CST 2014 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1766,11 +1766,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1812,12 +1812,12 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 66 more
 ============= begin nested exception, level (1) ===========
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
@@ -1840,11 +1840,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1888,8 +1888,8 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-Sun Feb 09 18:09:01 CST 2014 Thread[main,5,main] Cleanup action starting
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Sun Feb 09 18:15:05 CST 2014 Thread[main,5,main] Cleanup action starting
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -1910,11 +1910,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1956,12 +1956,12 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
-Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+Caused by: java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 66 more
 ============= begin nested exception, level (1) ===========
-java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata' not found.
+java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyDerbyDB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
@@ -1984,11 +1984,11 @@ java.sql.SQLException: Database 'C:UsersstanlickgitlambazonlambazonMyMongoDBdata
 	at org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnection(AbstractDriverBasedDataSource.java:120)
 	at com.lambazon.configuration.profiles.MockConnectionPool.getConnection(MockConnectionPool.java:18)
 	at com.lambazon.configuration.profiles.ProfileConfig.batchRepository(ProfileConfig.java:28)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.CGLIB$batchRepository$0(<generated>)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a$$FastClassByCGLIB$$76bb51c1.invoke(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.CGLIB$batchRepository$0(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085$$FastClassByCGLIB$$b0f71904.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:326)
-	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$dc7f589a.batchRepository(<generated>)
+	at com.lambazon.configuration.profiles.ProfileConfig$$EnhancerByCGLIB$$38853085.batchRepository(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
