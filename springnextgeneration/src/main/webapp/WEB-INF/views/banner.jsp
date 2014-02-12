@@ -1,11 +1,15 @@
-		<div class="wrapper">
+	<div class="wrapper">
  		<div class="grids">
+                <div class="grid-16 grid intro green">
+                 
 
                  
-   			<a class="button" href="/">Home</a> 
-			<a class="button" href="https://github.com/stanlick/spring-next-generation">Source</a> 
-			<a class="button" href="/contact">Contact</a>                                  
+   			&nbsp <a  href="/">Home</a> &nbsp
+			&nbsp <a  href="https://github.com/stanlick/spring-next-generation">Source</a> &nbsp
+			&nbsp <a  href="/contact">Contact</a>                                  
+                       
                  </div><!--end of slogan div-->
-
+ 
+          </div><!--end of div grids-->
 	
     </div><!--end of div wrapper-->  
