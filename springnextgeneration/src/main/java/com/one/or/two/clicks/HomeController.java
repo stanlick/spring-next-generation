@@ -24,8 +24,8 @@ public class HomeController {
 		return "index";
 	}
 
-	@RequestMapping(value = "/tab1", method = RequestMethod.GET)
-	public String home() {
+	@RequestMapping(value = "/sub", method = RequestMethod.GET)
+	public String sub() {
 		return "subpage";
 	}
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)

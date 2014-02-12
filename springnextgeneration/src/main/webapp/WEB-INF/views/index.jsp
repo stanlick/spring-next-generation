@@ -1,24 +1,20 @@
 <jsp:include page="head.jsp" />
 <body>
-	<jsp:include page="banner.jsp" />  
+	<jsp:include page="banner.jsp" />
 	<!--========================================================================== Intro and FlexSlider =====================================================================================-->
 
 	<div class="wrapper">
 		<div class="grids top">
-			<div class="grid-6 grid intro">
+			<div class="grid-24 grid intro">
 				<h2>Spring Next Generation</h2>
-				<p>
-					The current book <i>series</i> where you choose the bite sized learning you need.
-				</p>
-
+				  <p>The current book series.</p>
 			</div>
 			<!--end of slogan div-->
 
-			<div align="center" >
-				<img alt="Spring People" src="resources/img/spring_people.png" >
-			</div>
 			<!--end of div grid-10-->
 		</div>
+		
+		
 		<!--end of div grids-->
 		<!--<span class="slidershadow"></span>-->
 
@@ -33,37 +29,45 @@
 
 		<div class="grids">
 			<div class="grid-4 grid">
-				<h4>Thinking in Objects</h4>
-				<p>
+				
+				<p><a
+						href="http://www.amazon.com/Spring-Next-Generation-Thinking-Objects-ebook/dp/B00I2Z15WW">
+						<img src="resources/img/b1.jpg">
+					</a>
 					The first book in the series is for anyone working on an OO
 					application that really doesn't understand the core OO concepts. <i>Thinking
-						in Objects</i> is must read if you do
-					not see the big OO picture!<br /> <a class="button"
-						href="http://www.amazon.com/Spring-Next-Generation-Thinking-Objects/dp/1494334542">Buy!</a>
+						in Objects</i> is must read if you do not see the big OO picture!<br />
+					
 				</p>
 			</div>
 
 			<div class="grid-4 grid">
-				<h4>Core Container</h4>
-				<p>
-					This book gets at the very heart of Spring. It explains how an application works using Spring. <i>Core Container</i> is
-					a must read if you think Spring is a magic box.  All the current techniques are explored.<br />
+				
+				<p><a
+						href="http://www.amazon.com/Spring-Next-Generation-Core-Container/dp/1495399850">
+						<img src="resources/img/b2.jpg">
+					</a>
+					This book gets at the very heart of Spring. It explains how an
+					application works using Spring. <i>Core Container</i> is a must
+					read if you think Spring is a magic box. All the current techniques
+					are explored.<br />
+					
 
 				</p>
 			</div>
 
 			<div class="grid-4 grid">
-				<h4>AOP</h4>
-				<p>
-					Are you still coding the same old things over and over by hand?
-					<i>AOP</i> will show you how to turn these tedious cross-cutting chores over to Spring.  I call it the Spring "special sauce."<br />
+				
+				<p><a
+						href="#">
+						<img src="resources/img/blankCover.jpg
+">
+					</a>
+					Are you still coding the same old things over and over by hand? <i>AOP</i>
+					will show you how to turn these tedious cross-cutting chores over
+					to Spring. I call it the Spring "special sauce.  Stay tuned..."<br />
 
 				</p>
-			</div>
-
-			<div class="grid-3 grid">
-				<h4>Pending</h4>
-				<p>Stay tuned...</p>
 			</div>
 
 

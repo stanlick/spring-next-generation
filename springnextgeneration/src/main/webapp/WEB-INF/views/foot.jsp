@@ -11,7 +11,7 @@
                       
                       <div class=" grids flexslider intro ticker top"><!--http://flex.madebymufffin.com/-->
                       <noscript>You have Javascript set to disabled. This ticker runs with Javascript and will only be shown if you turn it on.<br />
-                      Sie haben Javascript deaktiviert. Dieser Ticker wird nur vollständig angezeigt, wenn Sie Javascript aktivieren.</noscript> 
+                      </noscript> 
 
   						<ul class="slides">
                              
@@ -22,12 +22,12 @@
                                 </li>
                                 <li>
                         				 <p class="text-center">
-                                           Core Container is nearly finished
+                                           Core Container just hit the shelves
                                          </p>
                                 </li> 
                                 <li>
                         				 <p class="text-center">
-                                           Training classes are being scheduled
+                                           Working on AOP at this moment.  .  .
                                          </p>		
                                 </li>
 
@@ -35,7 +35,7 @@
                             </ul>
                             
 						</div><!--end of div flexslider-->
-		</div><!--end of wrapper-->
+<!--end of wrapper-->
 
 <!--========================================================================== Footer =====================================================================================-->     
 		<div class="wrapper">
