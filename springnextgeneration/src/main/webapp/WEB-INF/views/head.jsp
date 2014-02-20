@@ -9,7 +9,7 @@
     <meta name="revisit-after" content="7 days" />
     <meta name="robots" content="index,follow" />
 	
-	<title>Spring Next Generation Series</title>
+	<title>Spring Next Generation</title>
 			
             
             <link rel="stylesheet" href="resources/css/inuit.css" />

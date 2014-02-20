@@ -1,5 +1,11 @@
 <jsp:include page="head.jsp" />
 <body>
+<input type="hidden" value="object oriented design">
+<input type="hidden" value="java">
+<input type="hidden" value="spring.io">
+<input type="hidden" value="open source ecology">
+<input type="hidden" value="training">
+
 	<jsp:include page="banner.jsp" />
 	<!--========================================================================== Intro and FlexSlider =====================================================================================-->
 
@@ -60,7 +66,7 @@
 				
 				<p><a
 						href="#">
-						<img src="resources/img/blankCover.jpg
+						<img src="resources/img/b3.jpg
 ">
 					</a>
 					Are you still coding the same old things over and over by hand? <i>AOP</i>
