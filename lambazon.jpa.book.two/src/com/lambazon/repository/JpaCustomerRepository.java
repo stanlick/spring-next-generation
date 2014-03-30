@@ -35,7 +35,6 @@ public class JpaCustomerRepository implements Repository<Customer> {
 	}
 
 	public Customer save(Customer t) {
-		t.setId(15);
 		return t;
 	}
 

@@ -3,12 +3,14 @@ package com.lambazon.annotated.domain;
 import java.io.Serializable;
 
 import javax.persistence.Embeddable;
+import javax.persistence.Transient;
 
 @Embeddable
 public class Name implements Serializable{
 	
 	private static final long serialVersionUID = -4288276017042021788L;
 	private String fName, mName, lName;
+
 
 	public Name() {}
 	public Name(String first,String middle,String last) {
@@ -45,5 +47,8 @@ public class Name implements Serializable{
 		return "Name [fName=" + fName + ", mName=" + mName + ", lName=" + lName
 				+ "]";
 	}
+
+
+	
 
 }
