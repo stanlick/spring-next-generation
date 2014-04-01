@@ -6,7 +6,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import com.lambazon.annotated.domain.Customer;
-import com.lambazon.repository.Repository;
+import com.lambazon.annotated.repository.Repository;
 import com.lambazon.domain.Criteria;
 import com.lambazon.domain.dsl.Weekend;
 import com.lambazon.service.Service;

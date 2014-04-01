@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<bean id="loggerAspect" class="com.lambazon.aspects.LoggerAspect" />
+	<bean id="profilerAspect" class="com.lambazon.aspects.ProfilerAspect" />
+
+	<aop:config>
+		<aop:pointcut id="loggableMethods" expression="@annotation(com.lambazon.dsl.Loggable)" />
+		<aop:pointcut id="allMethods" expression="execution(* *(..))" />
+		<aop:pointcut id="allControllerMethods" expression="execution(* com.lambazon.controller.*.*(..))" />
+		<aop:pointcut id="noArgumentMethods" expression="execution(* *())" />
+		<aop:pointcut id="allControllerMethodsOrLoggableMethods" expression="execution(* com.lambazon.controller.*.*(..)) || @annotation(com.lambazon.dsl.Loggable)" />
+	</aop:config>
+
+	<aop:config>
+		<aop:aspect ref="loggerAspect">
+			<aop:around method="logCall" pointcut-ref="noArgumentMethods" />
+		</aop:aspect>
+	</aop:config>
+
+	<aop:config>
+		<aop:aspect ref="profilerAspect">
+		<aop:pointcut id="allMethods" expression="execution(* *(..))" />
+		<aop:around method="profile" pointcut-ref="allMethods" />
+		</aop:aspect>
+	</aop:config>
+
+</beans>

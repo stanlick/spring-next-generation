@@ -9,8 +9,6 @@ import javax.persistence.Persistence;
 
 import com.lambazon.annotated.domain.Customer;
 import com.lambazon.domain.Criteria;
-import com.lambazon.domain.dsl.Weekend;
-import com.lambazon.repository.Repository;
 
 
 
