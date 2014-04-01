@@ -35,6 +35,8 @@ public class JpaCustomerRepository implements Repository<Customer> {
 	}
 
 	public Customer save(Customer t) {
+		// fake JPA repo 
+		t.setId(15);
 		return t;
 	}
 

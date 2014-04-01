@@ -36,9 +36,9 @@ public abstract class BaseEntity implements Serializable{
 		this.version = version;
 	}
 
-	@Override
-	public String toString() {
-		return "BaseEntity [id=" + id + ", version=" + version + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "BaseEntity [id=" + id + ", version=" + version + "]";
+//	}
 
 }
