@@ -10,11 +10,11 @@ public class LoggerAspect {
 
 	public Object logCall(ProceedingJoinPoint target) throws Throwable {
 		// Before it actually happens
-
+		logger.debug(buildString(Timing.AfterMethodCall, target,null));
 		Object returnValue = target.proceed();
 
 		// After it has happened
-		logger.debug(buildString(Timing.AfterMethodCall, target,returnValue));
+		
 
 		return returnValue;
 	}
@@ -28,7 +28,7 @@ public class LoggerAspect {
 		Object target = joinPoint.getTarget();
 
 		builder.append("Caller:" + findCaller())
-				.append(" Called:").append(signature.toShortString() + " On " + target.getClass())
+				.append(" Called:").append(signature.toShortString() + " On " + target.getClass().getSimpleName())
 				.append(" Arguments Passed:" + arguments)
 				.append(" Return Value:" + returnValue);
 
@@ -45,7 +45,7 @@ public class LoggerAspect {
 		boolean found = false;
 		for (StackTraceElement stackTraceElement : callStack) {
 			if (found) {
-				return stackTraceElement.getClassName() + "."
+				return getSimpleName(stackTraceElement) + "."
 						+ stackTraceElement.getMethodName() + " at line number " +  stackTraceElement.getLineNumber();
 			}
 
@@ -54,6 +54,13 @@ public class LoggerAspect {
 			}
 		}
 		return "unknown";
+	}
+
+	private String getSimpleName(StackTraceElement stackTraceElement) {
+		// com.lambazon.controller.CustomerController ---> CustomerController
+		int lastDot = stackTraceElement.getClassName().lastIndexOf(".");
+		
+		return stackTraceElement.getClassName().substring(lastDot);
 	}
 
 	private String argsToString(Object[] args) {

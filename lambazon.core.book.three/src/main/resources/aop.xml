@@ -17,15 +17,15 @@
 
 	<aop:config>
 		<aop:aspect ref="loggerAspect">
-			<aop:around method="logCall" pointcut-ref="noArgumentMethods" />
+			<aop:around method="logCall" pointcut-ref="allMethods" />
 		</aop:aspect>
 	</aop:config>
-
+<!-- 
 	<aop:config>
 		<aop:aspect ref="profilerAspect">
 		<aop:pointcut id="allMethods" expression="execution(* *(..))" />
 		<aop:around method="profile" pointcut-ref="allMethods" />
 		</aop:aspect>
-	</aop:config>
+	</aop:config> -->
 
 </beans>
