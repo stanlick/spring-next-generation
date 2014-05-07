@@ -42,12 +42,10 @@ public class Customer extends BaseEntity{
 		return orderHistory;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Customer [name=" + name + ", status=" + status + ", address="
-//				+ address + ", orderHistory=" + orderHistory + ", getId()="
-//				+ getId() + ", getVersion()=" + getVersion() + "]";
-//	}
+	@Override
+	public String toString() {
+		return "id: " + getId();
+	}
 
 
 }
